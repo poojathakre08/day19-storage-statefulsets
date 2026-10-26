@@ -1,0 +1,23 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secret.yaml
+
+# Kubernetes local and generated files
+*.kubeconfig
+kubeconfig
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
